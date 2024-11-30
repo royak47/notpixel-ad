@@ -20,7 +20,7 @@ pkg install -y rust binutils
 ```
 CARGO_BUILD_TARGET="$(rustc -Vv | grep "host" | awk '{print $2}')" pip install maturin
 ```
-# **GIT CLONE THIS SCRIPT**
+# **GIT CLONE THE SCRIPT**
 ```
 pkg install git
 ```
@@ -43,13 +43,16 @@ patchelf --add-needed libpython3.10.so.1.0 pyarmor_runtime_004817/android_aarch6
 ```
 **Paste query id inside ```query_ids.txt```**
 ```
+pkg install nano
+```
+```
 nano query_ids.txt
 ```
 **If you wanna use proxies**
 ```
 nano proxies.txt
 ```
-#RUN SCRIPT
+# RUN SCRIPT
 ```
 python main.py
 ```
