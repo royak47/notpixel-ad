@@ -31,7 +31,7 @@ git clone https://github.com/ashtrobe/notpixel-ad.git
 ```
 cd notpixel-ad
 ```
-# **Install Requirements**
+# **INSTALL REQUIREMENTS**
 ```
 pip install -r requirements.txt
 ```
@@ -41,14 +41,14 @@ pkg install patchelf
 ```
 patchelf --add-needed libpython3.10.so.1.0 pyarmor_runtime_004817/android_aarch64/pyarmor_runtime.so
 ```
-# **Paste query id inside ```query_ids.txt```**
+# **PASTE QUERY ID INSIDE ```query_ids.txt```**
 ```
 pkg install nano
 ```
 ```
 nano query_ids.txt
 ```
-# **If you wanna use proxies**
+# **IF YOU WANNA USE PROXIES**
 ```
 nano proxies.txt
 ```
